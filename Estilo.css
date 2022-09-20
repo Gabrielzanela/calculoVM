@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+header {
+    background-color: rgb(54, 98, 119);
+    padding: 20px;
+}
+
+header h1 {
+    color: rgb(25, 135, 214);
+}
+
+nav {
+    background: #e2e1e1;
+    padding: 3px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;    
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container {
+    border: 2px solid rgb(54, 40, 77);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container input {
+    border: 2px solid rgb(50, 70, 136);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.botoes {
+    margin-bottom: 15px;
+}
+
+.botoes button {
+    border-radius: 5px;
+    border: 2px solid rgb(18, 17, 24);
+    color:rgb(212, 206, 201);
+    background-color: rgb(85, 110, 223);
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+.input-vm{
+    background-color: rgb(113, 88, 255);
+}
+
+#footer{
+background-color: rgb(43, 49, 110);
+border-bottom: 5px solid; color: blue;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
+font-size: 15px;
+margin-left: 1rem;
+margin-bottom: 7rem;
+border-radius: 8px;
+}
